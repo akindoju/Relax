@@ -32,6 +32,15 @@ body h1 {
   transform: scale(1);
 }
 
+.hold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 35px;
+}
+
 .circle {
   background-color: #010f1c;
   height: 100%;
