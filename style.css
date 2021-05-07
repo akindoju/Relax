@@ -103,10 +103,6 @@ body h1 {
   animation: grow 3s linear forwards;
 }
 
-.heading.grow {
-  animation: grow 3s linear forwards;
-}
-
 @keyframes grow {
   from {
     transform: scale(1);
@@ -121,10 +117,6 @@ body h1 {
   animation: shrink 3s linear forwards;
 }
 
-.heading.shrink {
-  animation: shrink 3s linear forwards;
-}
-
 @keyframes shrink {
   from {
     transform: scale(1.2);
@@ -132,5 +124,36 @@ body h1 {
 
   to {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    height: 220px;
+    width: 220px;
+  }
+
+  .gradient-circle {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  }
+
+  .pointer {
+    height: 10px;
+    width: 10px;
+  }
+
+  .pointer-container {
+    top: -40px;
+    left: 100px;
+    width: -40px;
+    height: 150px;
+  }
+
+  .sub-text {
+    font-size: 20px;
   }
 }
